@@ -11,8 +11,18 @@ class Ideone
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		int n,i,rem=0;
+		int n,i,rem=0,sum=0;
 		n=sc.nextInt();
+		//temp=n;
+		while(n!=0)
+		{
+			rem=n%10;
+			sum=(sum*10)+rem;
+			n=n/10;
+			
+			
+		}
+		n=sum;
 		while(n!=0)
 		{
 			rem=n%10;
